@@ -1,0 +1,43 @@
+.main {
+    margin: 2rem auto;
+    width: 70%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    background-color: #f8f9fa;
+}
+.inputGroup label{
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+.inputGroup input{
+    background-color: #f8f9fa;
+    padding: 5px;
+    border-radius: 5px;
+    width: 15rem;
+}
+button {
+    font: inherit;
+    padding: 12px 20px;
+    cursor: pointer;
+    background-color: #885321;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover, button:active {
+    background-color: #d8ac33;
+    transform: scale(1.05);
+}

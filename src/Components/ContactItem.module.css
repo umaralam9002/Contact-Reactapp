@@ -1,0 +1,43 @@
+.contact {
+    margin: 1rem auto;
+    width: 40%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4095eb;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 8px 30px rgba(0, 0, 0, 0.1);
+    list-style: none;
+}
+
+
+.contact img {
+    width: 6rem;
+    border: 2px solid;
+    border-radius: 12px;
+}
+
+.description{
+    background-color: #4095eb;
+}
+.description h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white; 
+}
+
+
+
+.description b {
+    background-color: #4095eb;
+    color: white; 
+}
+.description h2 {
+    background-color: #4095eb;
+    color: white; 
+}
+
+

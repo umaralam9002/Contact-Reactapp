@@ -1,0 +1,9 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  /* background-color: rgb(44, 41, 41); */
+  /* background:rgb(44, 41, 41) ; */
+}
+body{
+  background-color: rgb(44, 41, 41); 
+}

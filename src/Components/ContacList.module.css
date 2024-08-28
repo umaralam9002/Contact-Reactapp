@@ -1,0 +1,18 @@
+.main {
+    margin: auto;
+    width: 70%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap:1rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+.main p{
+    background-color: #f8f9fa;
+}

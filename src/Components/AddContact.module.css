@@ -1,0 +1,33 @@
+.main {
+    margin: 2rem auto;
+    width: 70%;
+    height: 80px;
+    justify-content: space-around;
+    padding: 2rem;
+    align-items: center;
+    background-color: #f8f9fa; 
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 8px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.main button {
+    font: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    margin: 12px;
+    cursor: pointer;
+    background-color:  #885321;
+    color: white;
+    flex-direction: row;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.main button:hover, .main button:active {
+    background-color: #d8ac33 ;
+    transform: scale(1.05);
+}
