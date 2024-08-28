@@ -13,16 +13,19 @@
     list-style: none;
 }
 
-
+.contact:hover,.contact:active{
+    background-color: #2983dd;
+}
 .contact img {
     width: 6rem;
     border: 2px solid;
     border-radius: 12px;
+    background-color: rgb(44, 41, 41);
 }
 
-.description{
+/* .description{
     background-color: #4095eb;
-}
+} */
 .description h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
@@ -32,11 +35,11 @@
 
 
 .description b {
-    background-color: #4095eb;
+    /* background-color: #4095eb; */
     color: white; 
 }
 .description h2 {
-    background-color: #4095eb;
+    /* background-color: #4095eb; */
     color: white; 
 }
 

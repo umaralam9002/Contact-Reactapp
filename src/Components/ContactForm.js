@@ -20,7 +20,7 @@ const ContactForm = (props) => {
         })
         return;
     }
-    if( numref.current.value.length<10){
+    if( numref.current.value.length<10 || numref.current.value.length>10){
         enqueueSnackbar("Fill The Appropriate Number!",{
             variant: "warning",
             anchorOrigin:{
