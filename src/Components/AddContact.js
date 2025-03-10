@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import css from './AddContact.module.css'
 const AddContact = props =>{
 
@@ -27,6 +28,13 @@ const AddContact = props =>{
             console.error('Error fetching contact details:', error);
         }
     };
+
+    useEffect(() => {
+        fetchHandler();
+    }, []);
+
+
+    
 
     return (
         <div className={css.main}>
